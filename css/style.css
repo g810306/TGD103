@@ -1,0 +1,143 @@
+@import url(reset.css);
+
+body {
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* Nav Bar */
+
+nav {
+  background-color: #fff;
+  height: 100px;
+  padding: 30px;
+}
+
+.nav img {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.nav ul {
+  float: right;
+  padding: 50px 20px 50px 0;
+}
+
+.nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3em;
+}
+
+/* Top */
+
+.top {
+  background-image: url(../img/main_kv.jpg);
+  height: 675px;
+}
+
+.top_text {
+  padding-top: 100px;
+  padding-left: 50px;
+}
+
+.top h1 {
+  font-size: 5em;
+  color: #cda581;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.top h2 {
+  font-size: 2em;
+  color: rgb(119, 117, 117);
+}
+
+.top_text a {
+  display: block;
+  text-decoration: none;
+  width: 200px;
+  height: 50px;
+  background-color: #fff;
+  line-height: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: rgb(139, 138, 138);
+  margin: 30px 0;
+}
+
+.top_text p {
+  font-size: 1.3em;
+}
+
+/* bottom */
+
+.bottom {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.bottom h1 {
+  font-size: 5em;
+  color: #cda581;
+  font-weight: bold;
+  line-height: 0.5;
+}
+
+.bottom h2 {
+  font-size: 2em;
+  color: rgb(119, 117, 117);
+  padding: 40px 0;
+}
+
+.bottom ul {
+  font-size: 0;
+}
+
+.bottom li {
+  display: inline-block;
+  width: 339px;
+  height: 451px;
+  background-color: rgb(129, 124, 124);
+  color: #fff;
+  text-align: left;
+  margin: 0 20px;
+}
+
+.bottom h3 {
+  font-size: 28px;
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+.bottom p {
+  color: white;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+.bottom a {
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  background-color: rgb(129, 124, 124);
+  margin: 50px auto;
+  color: #fff;
+}
